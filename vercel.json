@@ -1,9 +1,10 @@
 {
+  "version": 2,
+  "regions": ["iad1"],
   "rewrites": [
     {
-      "source": "/api/:id.m3u8",
-      "destination": "/api/index.js?id=:id"
+      "source": "/api/:path*",
+      "destination": "/api/index.js"
     }
-  ],
-  "regions": ["iad1"]
+  ]
 }
