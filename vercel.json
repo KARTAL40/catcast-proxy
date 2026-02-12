@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*).m3u8",
+      "destination": "/api/index.js?id=$1"
+    }
+  ],
+  "regions": ["iad1"]
+}
